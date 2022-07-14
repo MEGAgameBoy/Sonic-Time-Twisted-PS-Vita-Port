@@ -1,6 +1,7 @@
 # Sonic Time Twisted PS Vita Port.
 This is the source code for [Sonic Time Twisted](https://github.com/overbound/SonicTimeTwisted) for the PS Vita.
-Original game by [Overbound Game Studio](https://overboundstudio.com)
+Original game by [Overbound Game Studio](https://overboundstudio.com).
+You can download the game on [VitaDB](https://vitadb.rinnegatamante.it/#/info/836).
 
 ## Note
 The code of the port is a little bit messy but i'm going to try to improve it in the future.
