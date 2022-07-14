@@ -1,10 +1,20 @@
 # Sonic Time Twisted PS Vita Port.
-This is the source code for [Sonic Time Twisted](https://github.com/overbound/SonicTimeTwisted) for the PS Vita.
-Original game by [Overbound Game Studio](https://overboundstudio.com).
+This is a port of the fan game Sonic Time Twisted for the PS Vita, the original source code can be found [here](https://github.com/overbound/SonicTimeTwisted)
 You can download the game on [VitaDB](https://vitadb.rinnegatamante.it/#/info/836).
 
+## Credits
+Original game by [Overbound Game Studio](https://overboundstudio.com).
+Port by [MEGAgameBoy](https://github.com/MEGAgameBoy) & [MDashK](https://github.com/MDashK)
+
 ## Note
-The code of the port is a little bit messy but i'm going to try to improve it in the future.
+To compile it you need to use the "Playstation" profile in Gamemaker.
+
+## Changelog 1.1.2.1
+* Reworked time travel transition
+* Fixed pause menu bug when time traveling
+* The game now use async save
+* Added playstation buttons reference in the mapping options
+* Removed exit button (use PS button instead)
 
 ## Licensing
 
