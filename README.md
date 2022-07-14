@@ -1,5 +1,5 @@
 # Sonic Time Twisted PS Vita Port.
-This is a port of the fan game Sonic Time Twisted for the PS Vita, the original source code can be found [here](https://github.com/overbound/SonicTimeTwisted)
+This is a port of the fan game Sonic Time Twisted for the PS Vita, the original source code can be found [here](https://github.com/overbound/SonicTimeTwisted).
 You can download the game on [VitaDB](https://vitadb.rinnegatamante.it/#/info/836).
 
 ## Credits
