@@ -7,7 +7,7 @@ Original game by [Overbound Game Studio](https://overboundstudio.com).
 Port by [MEGAgameBoy](https://github.com/MEGAgameBoy) & [MDashK](https://github.com/MDashK)
 
 ## Note
-To compile it you need to use the "Playstation" profile selected, have "Fast Collision" enabled and use YYC to compile it.
+To compile it you need to use the "Playstation" profile in Gamemaker, have "Fast Collision" enabled and use YYC to compile it.
 
 ## Changelog 1.1.2.1
 * Reworked time travel transition
