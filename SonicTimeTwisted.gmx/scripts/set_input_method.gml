@@ -9,29 +9,23 @@ if(argument1)
 switch(argument0)
 {
     case INPUT_KEYBOARD:
-        var trigger_script = input_method_dummy_script;
-        if (objProgram.inputManager.rumble_enabled) trigger_script = rumble_manage;
         set_input_method_detailed(
             input_method_init_physical,
-            input_method_gamepad,
-            trigger_script,
-            //rumble_manage,
+            input_method_keyboard,
             input_method_dummy_script,
-            rumble_perform_windows_gamepad,
+            input_method_dummy_script,
+            input_method_dummy_script,
             input_method_dummy_script,
             argument1
         );
         break;
     case INPUT_TOUCHSCREEN:
-        var trigger_script = input_method_dummy_script;
-        if (objProgram.inputManager.rumble_enabled) trigger_script = rumble_manage;
         set_input_method_detailed(
-            input_method_init_physical,
-            input_method_gamepad,
-            trigger_script,
-            //rumble_manage,
+            input_method_init_smartphone,
             input_method_dummy_script,
-            rumble_perform_windows_gamepad,
+            input_method_dummy_script,
+            input_method_dummy_script,
+            rumble_perform_android_smartphone,
             input_method_dummy_script,
             argument1
         );

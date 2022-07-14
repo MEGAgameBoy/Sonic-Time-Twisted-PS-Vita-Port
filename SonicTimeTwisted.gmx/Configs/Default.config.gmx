@@ -436,18 +436,18 @@
     <option_ouya_packaging>-1</option_ouya_packaging>
     <option_priority>0</option_priority>
     <option_ps3_build_version>0</option_ps3_build_version>
-    <option_ps3_interpolate>-1</option_ps3_interpolate>
+    <option_ps3_interpolate>0</option_ps3_interpolate>
     <option_ps3_major_version>1</option_ps3_major_version>
     <option_ps3_minor_version>0</option_ps3_minor_version>
     <option_ps3_nptitleid></option_ps3_nptitleid>
     <option_ps3_nptitlepassphrase>Memo1</option_ps3_nptitlepassphrase>
     <option_ps3_nptitlesecret>Memo1</option_ps3_nptitlesecret>
-    <option_ps3_package_id></option_ps3_package_id>
+    <option_ps3_package_id>SOTT10722</option_ps3_package_id>
     <option_ps3_passcode></option_ps3_passcode>
     <option_ps3_revision_version>0</option_ps3_revision_version>
-    <option_ps3_scale>0</option_ps3_scale>
+    <option_ps3_scale>-1</option_ps3_scale>
     <option_ps3_texture_page>2048</option_ps3_texture_page>
-    <option_ps3_version>1.00</option_ps3_version>
+    <option_ps3_version>1.1.2</option_ps3_version>
     <option_ps4_build_version>0</option_ps4_build_version>
     <option_ps4_displaycursor>0</option_ps4_displaycursor>
     <option_ps4_interpolate>-1</option_ps4_interpolate>

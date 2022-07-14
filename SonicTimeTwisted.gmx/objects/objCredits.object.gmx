@@ -125,6 +125,10 @@ lines[15, 1] = 'Alex Khayrullin';
 lines[15, 2] = 'bennascar';
 lines[15, 3] = 'Romulo Santos';
 
+lines[16, 0] = "PS Vita Port by";
+lines[16, 1] = 'MEGAgameBoy';
+lines[16, 2] = 'MDashK';
+
 // Inject localization author(s)
 var langname = tr_get_lang_creditsname();
 if(langname != "")

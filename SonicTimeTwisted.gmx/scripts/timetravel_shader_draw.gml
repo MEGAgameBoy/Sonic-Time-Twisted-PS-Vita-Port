@@ -1,3 +1,6 @@
+// MDashK: we keep this one intact, because it is used for the
+// title screen presentation. In the Vita, it is only used there.
+
 // argument0 - sprite/screen width
 // argument1 - sprite/screen height
 // argument2 - surface draw x

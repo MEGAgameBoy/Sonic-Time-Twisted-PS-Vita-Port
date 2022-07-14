@@ -158,6 +158,8 @@ if (DEVICE_INFO &amp; DEVICE_OS_PLAYSTATION)
     async_busy = false;
     async_loading = true; // we're loading savedata, not saving it.
     first_run = true; // always assume it's the first run until we load the savedata...
+    // UWP flags
+    is_constrained = false; // the app was put into background
     
     display_set_gui_size(room_width, room_height);
     
@@ -214,6 +216,50 @@ else
           <argument>
             <kind>1</kind>
             <string>check_room  = 0;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="3" enumb="2">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///UWP: Handle UWP events
+/*
+if (uwp_is_suspending()) {
+    show_debug_message("[STT-PS]: Suspending...");
+    save_options();
+    event_user(2);
+    uwp_suspend();
+    exit;
+}
+
+if (uwp_is_constrained() &amp;&amp; !is_constrained) {
+    show_debug_message("[STT-PS]: App was put in background...");
+    is_constrained = true; // the function is weird, trust me I need this thing
+    save_options();
+    event_user(2);
+    exit;
+}
+else if (is_constrained) {
+    show_debug_message("[STT-PS]: App was resumed...");
+    is_constrained = false;
+}
+*/
 </string>
           </argument>
         </arguments>
@@ -301,6 +347,7 @@ if (DEVICE_INFO &amp; DEVICE_OS_PLAYSTATION)
     
     var p = inputManager.pad;
     if (gamepad_button_check(p, gp_face1)
+    &amp;&amp;  gamepad_button_check(p, gp_face2)
     &amp;&amp;  gamepad_button_check(p, gp_face3)
     &amp;&amp;  gamepad_button_check(p, gp_face4)
     &amp;&amp;  gamepad_button_check(p, gp_start))
@@ -308,6 +355,35 @@ if (DEVICE_INFO &amp; DEVICE_OS_PLAYSTATION)
         show_debug_overlay(true);
     }
 }
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="7" enumb="12">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///UWP: Pause the game
+
+if (!objProgram.paused &amp;&amp; (instance_exists(objPlayer) || instance_exists(objSSPlayer))) {
+    objProgram.paused = true;
+    game_pause(objProgram.paused);
+}
+
 </string>
           </argument>
         </arguments>

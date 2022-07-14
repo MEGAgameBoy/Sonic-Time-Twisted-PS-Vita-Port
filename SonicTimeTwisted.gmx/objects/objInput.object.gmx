@@ -272,6 +272,9 @@ case "gamepad lost":
                 look at this, all controllers are disconnected, gameplay cannot progress any further,
                 by N's regulations you must ask the player to connect at least one controller.
             */
+            with (objProgram) {
+                event_user(2);
+            }
         }
     }
     

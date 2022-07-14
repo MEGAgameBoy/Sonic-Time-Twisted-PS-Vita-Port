@@ -5,7 +5,7 @@ if (DEVICE_INFO & DEVICE_OS_PLAYSTATION)
     var _name = argument0;
     with (objProgram)
     {
-        return string_length(storage_map[? _name]) > 0;
+        return ds_map_exists(storage_map, _name) && string_length(storage_map[? _name]) > 0;
     }
 }
 else

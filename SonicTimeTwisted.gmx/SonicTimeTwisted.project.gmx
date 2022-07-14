@@ -8,6 +8,7 @@
     <Config>Configs\Linux</Config>
     <Config>Configs\PlayStation</Config>
     <Config>Configs\Browser</Config>
+    <Config>Configs\XBUWP</Config>
   </Configs>
   <datafiles number="111" name="datafiles">
     <datafile>
@@ -40,6 +41,9 @@
           <CopyToMask>9223372036854775807</CopyToMask>
         </Config>
         <Config name="Browser">
+          <CopyToMask>9223372036854775807</CopyToMask>
+        </Config>
+        <Config name="XBUWP">
           <CopyToMask>9223372036854775807</CopyToMask>
         </Config>
       </ConfigOptions>
@@ -78,6 +82,9 @@
           <Config name="Browser">
             <CopyToMask>9223372036854775807</CopyToMask>
           </Config>
+          <Config name="XBUWP">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
         </ConfigOptions>
         <filename>English.json</filename>
       </datafile>
@@ -112,6 +119,9 @@
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
             <Config name="Browser">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="XBUWP">
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
           </ConfigOptions>
@@ -149,6 +159,9 @@
             <Config name="Browser">
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
+            <Config name="XBUWP">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
           </ConfigOptions>
           <filename>sprFontLives.png</filename>
         </datafile>
@@ -182,6 +195,9 @@
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
             <Config name="Browser">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="XBUWP">
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
           </ConfigOptions>
@@ -219,6 +235,9 @@
             <Config name="Browser">
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
+            <Config name="XBUWP">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
           </ConfigOptions>
           <filename>sprFontTitleLarge.png</filename>
         </datafile>
@@ -252,6 +271,9 @@
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
             <Config name="Browser">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="XBUWP">
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
           </ConfigOptions>
@@ -289,6 +311,9 @@
             <Config name="Browser">
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
+            <Config name="XBUWP">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
           </ConfigOptions>
           <filename>sprFontTitleSmallest.png</filename>
         </datafile>
@@ -322,6 +347,9 @@
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
             <Config name="Browser">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="XBUWP">
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
           </ConfigOptions>
@@ -359,6 +387,9 @@
             <Config name="Browser">
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
+            <Config name="XBUWP">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
           </ConfigOptions>
           <filename>sprFuturePost.png</filename>
         </datafile>
@@ -392,6 +423,9 @@
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
             <Config name="Browser">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="XBUWP">
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
           </ConfigOptions>
@@ -430,6 +464,9 @@
           <Config name="Browser">
             <CopyToMask>9223372036854775807</CopyToMask>
           </Config>
+          <Config name="XBUWP">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
         </ConfigOptions>
         <filename>Russian.json</filename>
       </datafile>
@@ -464,6 +501,9 @@
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
             <Config name="Browser">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="XBUWP">
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
           </ConfigOptions>
@@ -501,6 +541,9 @@
             <Config name="Browser">
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
+            <Config name="XBUWP">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
           </ConfigOptions>
           <filename>sprFontHudMin.png</filename>
         </datafile>
@@ -534,6 +577,9 @@
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
             <Config name="Browser">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="XBUWP">
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
           </ConfigOptions>
@@ -571,6 +617,9 @@
             <Config name="Browser">
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
+            <Config name="XBUWP">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
           </ConfigOptions>
           <filename>sprFontMicro.png</filename>
         </datafile>
@@ -604,6 +653,9 @@
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
             <Config name="Browser">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="XBUWP">
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
           </ConfigOptions>
@@ -641,6 +693,9 @@
             <Config name="Browser">
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
+            <Config name="XBUWP">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
           </ConfigOptions>
           <filename>sprFontTitleSmall.png</filename>
         </datafile>
@@ -674,6 +729,9 @@
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
             <Config name="Browser">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="XBUWP">
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
           </ConfigOptions>
@@ -711,6 +769,9 @@
             <Config name="Browser">
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
+            <Config name="XBUWP">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
           </ConfigOptions>
           <filename>sprFuturePost.png</filename>
         </datafile>
@@ -744,6 +805,9 @@
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
             <Config name="Browser">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="XBUWP">
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
           </ConfigOptions>
@@ -782,6 +846,9 @@
           <Config name="Browser">
             <CopyToMask>9223372036854775807</CopyToMask>
           </Config>
+          <Config name="XBUWP">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
         </ConfigOptions>
         <filename>BrazilianPortuguese.json</filename>
       </datafile>
@@ -816,6 +883,9 @@
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
             <Config name="Browser">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="XBUWP">
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
           </ConfigOptions>
@@ -853,6 +923,9 @@
             <Config name="Browser">
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
+            <Config name="XBUWP">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
           </ConfigOptions>
           <filename>sprFontHudMin.png</filename>
         </datafile>
@@ -886,6 +959,9 @@
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
             <Config name="Browser">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="XBUWP">
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
           </ConfigOptions>
@@ -923,6 +999,9 @@
             <Config name="Browser">
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
+            <Config name="XBUWP">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
           </ConfigOptions>
           <filename>sprFontMicro.png</filename>
         </datafile>
@@ -956,6 +1035,9 @@
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
             <Config name="Browser">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="XBUWP">
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
           </ConfigOptions>
@@ -993,6 +1075,9 @@
             <Config name="Browser">
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
+            <Config name="XBUWP">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
           </ConfigOptions>
           <filename>sprFontTitleSmall.png</filename>
         </datafile>
@@ -1026,6 +1111,9 @@
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
             <Config name="Browser">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="XBUWP">
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
           </ConfigOptions>
@@ -1063,6 +1151,9 @@
             <Config name="Browser">
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
+            <Config name="XBUWP">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
           </ConfigOptions>
           <filename>sprFuturePost.png</filename>
         </datafile>
@@ -1096,6 +1187,9 @@
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
             <Config name="Browser">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="XBUWP">
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
           </ConfigOptions>
@@ -1134,6 +1228,9 @@
           <Config name="Browser">
             <CopyToMask>9223372036854775807</CopyToMask>
           </Config>
+          <Config name="XBUWP">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
         </ConfigOptions>
         <filename>French.json</filename>
       </datafile>
@@ -1168,6 +1265,9 @@
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
             <Config name="Browser">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="XBUWP">
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
           </ConfigOptions>
@@ -1205,6 +1305,9 @@
             <Config name="Browser">
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
+            <Config name="XBUWP">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
           </ConfigOptions>
           <filename>sprFontHudMin.png</filename>
         </datafile>
@@ -1238,6 +1341,9 @@
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
             <Config name="Browser">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="XBUWP">
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
           </ConfigOptions>
@@ -1275,6 +1381,9 @@
             <Config name="Browser">
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
+            <Config name="XBUWP">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
           </ConfigOptions>
           <filename>sprFontMicro.png</filename>
         </datafile>
@@ -1308,6 +1417,9 @@
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
             <Config name="Browser">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="XBUWP">
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
           </ConfigOptions>
@@ -1345,6 +1457,9 @@
             <Config name="Browser">
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
+            <Config name="XBUWP">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
           </ConfigOptions>
           <filename>sprFontTitleSmall.png</filename>
         </datafile>
@@ -1378,6 +1493,9 @@
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
             <Config name="Browser">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="XBUWP">
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
           </ConfigOptions>
@@ -1415,6 +1533,9 @@
             <Config name="Browser">
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
+            <Config name="XBUWP">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
           </ConfigOptions>
           <filename>sprFuturePost.png</filename>
         </datafile>
@@ -1448,6 +1569,9 @@
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
             <Config name="Browser">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="XBUWP">
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
           </ConfigOptions>
@@ -1486,6 +1610,9 @@
           <Config name="Browser">
             <CopyToMask>9223372036854775807</CopyToMask>
           </Config>
+          <Config name="XBUWP">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
         </ConfigOptions>
         <filename>Ukrainian.json</filename>
       </datafile>
@@ -1520,6 +1647,9 @@
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
             <Config name="Browser">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="XBUWP">
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
           </ConfigOptions>
@@ -1557,6 +1687,9 @@
             <Config name="Browser">
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
+            <Config name="XBUWP">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
           </ConfigOptions>
           <filename>sprFontHudMin.png</filename>
         </datafile>
@@ -1590,6 +1723,9 @@
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
             <Config name="Browser">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="XBUWP">
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
           </ConfigOptions>
@@ -1627,6 +1763,9 @@
             <Config name="Browser">
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
+            <Config name="XBUWP">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
           </ConfigOptions>
           <filename>sprFontMicro.png</filename>
         </datafile>
@@ -1660,6 +1799,9 @@
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
             <Config name="Browser">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="XBUWP">
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
           </ConfigOptions>
@@ -1697,6 +1839,9 @@
             <Config name="Browser">
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
+            <Config name="XBUWP">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
           </ConfigOptions>
           <filename>sprFontTitleSmall.png</filename>
         </datafile>
@@ -1730,6 +1875,9 @@
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
             <Config name="Browser">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="XBUWP">
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
           </ConfigOptions>
@@ -1767,6 +1915,9 @@
             <Config name="Browser">
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
+            <Config name="XBUWP">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
           </ConfigOptions>
           <filename>sprFuturePost.png</filename>
         </datafile>
@@ -1800,6 +1951,9 @@
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
             <Config name="Browser">
+              <CopyToMask>9223372036854775807</CopyToMask>
+            </Config>
+            <Config name="XBUWP">
               <CopyToMask>9223372036854775807</CopyToMask>
             </Config>
           </ConfigOptions>
@@ -1836,6 +1990,9 @@
             <CopyToMask>9223372036854775807</CopyToMask>
           </Config>
           <Config name="Browser">
+            <CopyToMask>9223372036854775807</CopyToMask>
+          </Config>
+          <Config name="XBUWP">
             <CopyToMask>9223372036854775807</CopyToMask>
           </Config>
         </ConfigOptions>
@@ -1876,6 +2033,9 @@
             <Config name="Browser">
               <CopyToMask>2097160</CopyToMask>
             </Config>
+            <Config name="XBUWP">
+              <CopyToMask>2097160</CopyToMask>
+            </Config>
           </ConfigOptions>
           <filename>045e_02fd_xbox_wireless_controller.csv</filename>
         </datafile>
@@ -1909,6 +2069,9 @@
               <CopyToMask>2097160</CopyToMask>
             </Config>
             <Config name="Browser">
+              <CopyToMask>2097160</CopyToMask>
+            </Config>
+            <Config name="XBUWP">
               <CopyToMask>2097160</CopyToMask>
             </Config>
           </ConfigOptions>
@@ -1948,6 +2111,9 @@
         <Config name="Browser">
           <CopyToMask>202375362</CopyToMask>
         </Config>
+        <Config name="XBUWP">
+          <CopyToMask>202375362</CopyToMask>
+        </Config>
       </ConfigOptions>
       <filename>gamecontrollerdb.txt</filename>
     </datafile>
@@ -1981,6 +2147,9 @@
           <CopyToMask>134217856</CopyToMask>
         </Config>
         <Config name="Browser">
+          <CopyToMask>134217856</CopyToMask>
+        </Config>
+        <Config name="XBUWP">
           <CopyToMask>134217856</CopyToMask>
         </Config>
       </ConfigOptions>
@@ -3429,6 +3598,9 @@
           </sprites>
         </sprites>
       </sprites>
+      <sprites name="Time Travel">
+        <sprite>sprites\sprTimeTravelEffect</sprite>
+      </sprites>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -4282,6 +4454,7 @@
       <scripts name="Shaders">
         <script>scripts\timetravel_shader_init.gml</script>
         <script>scripts\timetravel_shader_draw.gml</script>
+        <script>scripts\timetravel_shader_alt.gml</script>
       </scripts>
       <scripts name="Transitions">
         <script>scripts\transition_to.gml</script>

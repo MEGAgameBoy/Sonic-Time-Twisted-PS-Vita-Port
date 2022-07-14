@@ -1179,7 +1179,7 @@ audio_stop_all();
             draw_sprite_ext(sprOverboundLogo,0,view_xview[0]+213,view_yview[0]+90,1,1,0,c_white,lA);
             draw_text_color(view_xview[0]+213,view_yview[0]+15,tr('_splash_ASonicfangame'),c_white,c_white,c_teal,c_teal,lA);
             draw_text_color(view_xview[0]+213,view_yview[0]+150,tr('_splash_ThisGameIsFreeware'),c_white,c_white,c_teal,c_teal,lA);
-            draw_text_color(view_xview[0]+213,view_yview[0]+170,tr('_splash_DoNotSell'),c_white,c_white,c_red,c_red,lA);
+            draw_text_color(view_xview[0]+213,view_yview[0]+170,tr('_splash_DoNotSell')+'#UNOFFICIAL',c_white,c_white,c_red,c_red,lA);
             break;
         case 3:
         case 4:

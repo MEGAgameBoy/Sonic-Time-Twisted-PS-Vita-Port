@@ -118,25 +118,25 @@ else
     switch(code)
     {             
         case gp_face1:
-             return tr("A");
-             break;
-        case gp_face2:
-             return tr("B");
-             break;
-        case gp_face3:
              return tr("X");
              break;
+        case gp_face2:
+             return tr("O");
+             break;
+        case gp_face3:
+             return tr("Square");
+             break;
         case gp_face4:
-             return tr("Y");
+             return tr("Triangle");
              break;
         case gp_shoulderl:
-             return tr("L1");
+             return tr("L");
              break;
         case gp_shoulderlb:
              return tr("L2");
              break;
         case gp_shoulderr:
-             return tr("R1");
+             return tr("R");
              break;
         case gp_shoulderrb:
              return tr("R2");
@@ -148,10 +148,10 @@ else
              return tr("Start");
              break;
         case gp_stickl:
-             return tr("L3");
+             return tr("L");
              break;
         case gp_stickr:
-             return tr("R3");
+             return tr("R");
              break;
         case gp_padu:
              return tr("DPad Up");

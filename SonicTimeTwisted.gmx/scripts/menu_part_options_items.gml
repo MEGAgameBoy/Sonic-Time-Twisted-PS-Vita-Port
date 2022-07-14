@@ -5,7 +5,7 @@ menu_fn_add_option(tr("_options_menu_Video"), 0);
 menu_fn_add_option(tr("_options_menu_sound_title"), 11);
 if(DEVICE_INFO & DEVICE_TYPE_COMPUTER)
 {
-    //menu_fn_add_option(tr("_options_menu_Input_Method"), 1, 1, "");
+    menu_fn_add_option(tr("_options_menu_Input_Method"), 1, 1, "");
 }
 if(DEVICE_INFO & DEVICE_TYPE_SMARTPHONE)
 {
@@ -22,7 +22,7 @@ if(DEVICE_INFO & DEVICE_TYPE_SMARTPHONE)
 }
 if(DEVICE_INFO & DEVICE_TYPE_COMPUTER)
 {
-    //menu_fn_add_option(tr("_options_menu_Map_keys"), 2);
+    menu_fn_add_option(tr("_options_menu_Map_keys"), 2);
     menu_fn_add_option(tr("_options_menu_Map_gamepad"), 3);
 }
 else

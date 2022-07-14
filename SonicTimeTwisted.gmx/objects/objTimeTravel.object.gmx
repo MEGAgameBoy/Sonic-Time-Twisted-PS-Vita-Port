@@ -11,20 +11,6 @@
     <event eventtype="0" enumb="0">
       <action>
         <libid>1</libid>
-        <id>604</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_inherited</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-      </action>
-      <action>
-        <libid>1</libid>
         <id>611</id>
         <kind>6</kind>
         <userelative>-1</userelative>
@@ -71,6 +57,73 @@
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>604</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_inherited</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>/// Setup Shader
+timetravel_shader_init(426, 240);
+
+image_xscale=2*facing;
+image_yscale=2;
+spr=sprTimeTravelEffect;
+if image_xscale == -2 {
+   xoffset=426;
+} else xoffset=0;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="1" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>/// Clean up
+if (surface_exists(tt_surface)) surface_free(tt_surface);
+</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
     <event eventtype="3" enumb="0">
       <action>
@@ -89,8 +142,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
-/// Get transition mode
+            <string>/// Get transition mode
 switch mode
 {
 case 1: // wipe out
@@ -121,7 +173,72 @@ case -1: // wipe in
 }
 
 // increase the shift amount; this will cycle the colours
-//shift += 0.01;
+shift += 0.01;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="7" enumb="5">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>/// Clean up
+if (surface_exists(tt_surface)) surface_free(tt_surface);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if !surface_exists(tt_surface)
+tt_surface = surface_create(426, 240);
+
+// set the drawing target to the surface
+surface_set_target(tt_surface);
+// clear the surface
+draw_clear_alpha(c_black, 0);
+
+// draw the sprite mirrored on the y axis to create the zipper shape
+draw_sprite_ext(spr, floor(image_index), 0, 0, 2, 2, 0, c_white, 1);
+draw_sprite_ext(spr, floor(image_index), 0, 120, 2, -2, 0, c_white, 1);
+
+// reset the drawing target to the screen
+surface_reset_target();
+
+// MDashK: lets comment this out so that the Vita doesn't crash...
+//timetravel_shader_alt(426, 240, view_xview+xoffset, view_yview);
+// and use this alternate instead.
+timetravel_shader_alt(view_xview+xoffset, view_yview);
 </string>
           </argument>
         </arguments>

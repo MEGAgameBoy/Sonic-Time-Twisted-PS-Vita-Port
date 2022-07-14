@@ -12,7 +12,7 @@ if (DEVICE_INFO & DEVICE_OS_PLAYSTATION)
         buffer_async_group_option("showdialog", false); // don't show the console save select UI.
         buffer_async_group_option("savepadindex", inputManager.pad); //current user gamepad index you want to save to.
         
-        for (var i = 1; i < 9; i++)
+        for (var i = 0; i < 9; i++)
         {
             var _buf = buffer_create(1, buffer_grow, 1);
             var _name = "save" + string(i) + ".ini";
